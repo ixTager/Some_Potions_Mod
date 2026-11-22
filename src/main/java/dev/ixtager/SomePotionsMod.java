@@ -25,8 +25,7 @@ public class SomePotionsMod implements ModInitializer {
                     new Potion("creative",
                             new MobEffectInstance(
                                     CustomModEffects.CREATIVE,
-                                    3600,
-                                    0)));
+                                    1200)));
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.

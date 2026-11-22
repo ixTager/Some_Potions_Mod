@@ -3,7 +3,8 @@
 	"package": "dev.ixtager.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ExampleMixin",
+        "ClearEffectMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

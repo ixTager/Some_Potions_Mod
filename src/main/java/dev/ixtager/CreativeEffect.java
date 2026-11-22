@@ -23,14 +23,13 @@ public class CreativeEffect extends MobEffect {
     }
 
     @Override
-    public boolean applyEffectTick(ServerLevel level, LivingEntity entity, int amplifier) {
+    public void onEffectStarted(LivingEntity entity, int duration) {
         if (entity instanceof Player player) {
             ServerPlayer serverPlayer = (ServerPlayer) player;
             serverPlayer.setGameMode(GameType.CREATIVE);
         }
 
-        return super.applyEffectTick(level, entity, amplifier);
+        super.onEffectStarted(entity, duration);
     }
-
 
 }
