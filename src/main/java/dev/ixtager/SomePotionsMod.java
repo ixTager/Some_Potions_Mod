@@ -25,7 +25,7 @@ public class SomePotionsMod implements ModInitializer {
                     new Potion("creative",
                             new MobEffectInstance(
                                     CustomModEffects.CREATIVE,
-                                    1200)));
+                                    200)));
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -39,7 +39,7 @@ public class SomePotionsMod implements ModInitializer {
                     // Input potion.
                     Potions.WATER,
                     // Ingredient
-                    Items.NETHER_STAR,
+                    Items.DRAGON_EGG,
                     // Output potion.
                     CREATIVE_POTION
             );
