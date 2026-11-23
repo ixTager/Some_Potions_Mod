@@ -1,9 +1,27 @@
-# Some Potions Mod
+# 🧪 Some Potions Mod
 
-## Setup
+**Some Potions Mod** — это модификация для Minecraft на базе **Fabric**, которая добавляет в игру новые зелья с уникальными механиками и эффектами.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+## ✨ Особенности и контент
 
-## License
+На данный момент в мод добавлено:
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+* **Зелье Креатива (Potion of Creativity)**
+  * **Эффект:** Временно переключает игровой режим на *Творческий (Creative)* на **1 минуту**, после чего возвращает прежний режим.
+  * **Крафт:** Варится в зельеварке из **Яйца дракона** (Dragon Egg).
+
+> 💡 *Проект находится в стадии разработки. Новые зелья и эффекты будут добавляться в следующих версиях.*
+
+## 📥 Установка
+
+1. Убедитесь, что у вас установлен **Fabric Loader** для Minecraft **1.21.11**.
+2. Скачайте и установите [Fabric API](https://modrinth.com).
+3. Скачайте `.jar` файл мода из раздела [Releases](../../releases) и поместите его в папку `.minecraft/mods`.
+
+## 🛠️ Сборка и разработка (Setup)
+
+Для настройки среды разработки и сборки проекта из исходного кода следуйте официальной инструкции: [Fabric Documentation](https://fabricmc.net).
+
+## 📄 Лицензия
+
+Этот проект распространяется под лицензией **CC0** (Creative Commons Zero). Вы можете свободно изучать код, изменять его и использовать в своих проектах без каких-либо ограничений.
